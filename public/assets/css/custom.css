@@ -1,0 +1,24 @@
+
+/*# sourceMappingURL=../../../scss */
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+}
+
+.api-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.api-box h4 {
+    flex: 4;
+    margin-left: 15px;
+    height: 50px;
+    line-height: 50px;
+    background-color: aquamarine;
+}
+.api-box img {
+    /* flex: 9; */
+    height: 50px;
+}
