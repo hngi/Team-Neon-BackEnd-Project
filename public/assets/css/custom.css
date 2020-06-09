@@ -31,6 +31,7 @@
    -webkit-line-clamp: 2;
    /* hide the overflowing text, i.e, texts that did not fit in to the box */
    overflow: hidden;
+   color: rgb(78, 78, 78);
 }
 .api-box div {
     display: flex;
@@ -48,16 +49,39 @@
 .api-box div > span i {
     font-style: normal;
     font-size: 10px;
-    line-height: 14px;
+    font-weight: 200;
+    line-height: 18px;
     padding: 1px 5px;
-    margin: 0;
-    color: rgb(82, 80, 80);
+    height: 18px;
+    letter-spacing: 5%;
+    display: flex !important;
+    align-items: center;
 }
 .api-box div > span i:first-child {
     background-color: rgb(235, 236, 240);
     border-radius: 5px 0 0 5px;
 }
 .api-box div > span i:last-child {
-    background-color: cadetblue;
-    border-radius: 0 5px 5px 0;
+    background-color: rgb(217, 247, 190);
+    border-radius: 0 5px 5px 0;    
+}
+
+.icons-stat {
+    margin-top: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.icons-stat span {
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    color: rgb(114, 114, 114);
+}
+
+.icons-stat span ion-icon {
+    margin-right: 5px;
 }

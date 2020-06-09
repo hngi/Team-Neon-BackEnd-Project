@@ -18,6 +18,7 @@
     
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/rtl.css">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </head>
 <body>
     <nav class="nav-wrap bg-dark fixed-top">
