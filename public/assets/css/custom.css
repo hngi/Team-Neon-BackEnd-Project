@@ -14,11 +14,50 @@
 .api-box h4 {
     flex: 4;
     margin-left: 15px;
-    height: 50px;
-    line-height: 50px;
-    background-color: aquamarine;
+    font-size: 18px;
+    height: 25px;
+    line-height: 25px;
 }
 .api-box img {
     /* flex: 9; */
-    height: 50px;
+    height: 25px;
+}
+
+.api-box p {
+    font-size: 14px;
+    display: -webkit-box;
+   -webkit-box-orient: vertical;
+   /* to specify the number of lines you want the text to run through... */
+   -webkit-line-clamp: 2;
+   /* hide the overflowing text, i.e, texts that did not fit in to the box */
+   overflow: hidden;
+}
+.api-box div {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+.api-box div span {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.api-box div > span i {
+    font-style: normal;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 1px 5px;
+    margin: 0;
+    color: rgb(82, 80, 80);
+}
+.api-box div > span i:first-child {
+    background-color: rgb(235, 236, 240);
+    border-radius: 5px 0 0 5px;
+}
+.api-box div > span i:last-child {
+    background-color: cadetblue;
+    border-radius: 0 5px 5px 0;
 }
