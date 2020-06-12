@@ -11,9 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
 
 
 Route::get('/kennyendowed', 'KennyendowedController@kennyendowed')->name('kennyendowed');
+Route::get('/', 'KennyendowedController@subdomainArr');
+Route::get('/Order/{id?}', 'KennyendowedController@order')->name('Order');

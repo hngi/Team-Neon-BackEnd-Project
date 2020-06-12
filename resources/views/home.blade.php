@@ -6,6 +6,8 @@
         <div class="row d-flex justify-content-between align-items-center">
             <div class="col-md-8">
                 <h1 class="intro-title">
+                  {{-- {{@dd($data)}} --}}
+
                     API access for startup owners &amp; busy developers
                 </h1>
                 <p class="lead">
@@ -54,13 +56,81 @@
         <form class="card">
             <div class="card-body">
                 <div class="card border-0">
-                    
+
                 </div>
             </div>
         </form>
     </div>
     <div class="row">
+      @foreach ($data as $key => $value)
+        <?php
+$arr=explode('.',$value);
+$sub=$arr[0];
+
+        ?>
         <div class="col-md-3 mb-4">
+            <div class="card">
+                <div class="card-body p-3">
+                    <div class="api-box align-middle">
+                        <img src="assets/img/520x400.png" class="img-fluid">
+                    <h4 class="">Microapi Service For<a href="{{ route('Order',['id' =>$value] ) }}">  {{$sub}} </a>  </h4>
+                       <p>Service api for  {{$value}} , learn more about their endpoint <a href="{{ route('Order',['id' =>$value] ) }}"> here</a>  </p>
+                       <br>   <br>   <br>
+                        <div class="block text-left">
+                            <span> <i>Verified</i> <i> <ion-icon name="checkmark-outline"></ion-icon> </i> </span>
+                        </div>
+                        <div class="icons-stat">
+                            <span>
+                                <ion-icon name="trending-up-outline"></ion-icon> 9.8
+                            </span>
+                            <span>
+                                <ion-icon name="time-outline"></ion-icon> 665ms
+                            </span>
+                            <span>
+                                <ion-icon name="fitness-outline"></ion-icon> 98%
+                            </span>
+                            <span>
+                                <ion-icon name="time-outline"></ion-icon> 665ms
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      @endforeach
+
+        {{--
+         <div class="col-md-3 mb-4">
+              <div class="card">
+                  <div class="card-body p-3">
+                      <div class="api-box align-middle">
+                          <img src="assets/img/520x400.png" class="img-fluid">
+                          <h4 class=""> Microapi Name </h4>
+                          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore placeat aut rem repudiandae. Quasi mollitia culpa obcaecati velit blanditiis odio, rem provident? Sint et neque, libero voluptas ex nulla dolorum. </p>
+                          <div class="block text-left">
+                              <span> <i>Verified</i> <i> <ion-icon name="checkmark-outline"></ion-icon> </i> </span>
+                          </div>
+                          <div class="icons-stat">
+                              <span>
+                                  <ion-icon name="trending-up-outline"></ion-icon> 9.8
+                              </span>
+                              <span>
+                                  <ion-icon name="time-outline"></ion-icon> 665ms
+                              </span>
+                              <span>
+                                  <ion-icon name="fitness-outline"></ion-icon> 98%
+                              </span>
+                              <span>
+                                  <ion-icon name="time-outline"></ion-icon> 665ms
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-3 mb-4">
             <div class="card">
                 <div class="card-body p-3">
                     <div class="api-box align-middle">
@@ -255,35 +325,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-3 mb-4">
-            <div class="card">
-                <div class="card-body p-3">
-                    <div class="api-box align-middle">
-                        <img src="assets/img/520x400.png" class="img-fluid">
-                        <h4 class=""> Microapi Name </h4>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore placeat aut rem repudiandae. Quasi mollitia culpa obcaecati velit blanditiis odio, rem provident? Sint et neque, libero voluptas ex nulla dolorum. </p>
-                        <div class="block text-left">
-                            <span> <i>Verified</i> <i> <ion-icon name="checkmark-outline"></ion-icon> </i> </span>
-                        </div>
-                        <div class="icons-stat">
-                            <span>
-                                <ion-icon name="trending-up-outline"></ion-icon> 9.8
-                            </span>
-                            <span>
-                                <ion-icon name="time-outline"></ion-icon> 665ms
-                            </span>
-                            <span>
-                                <ion-icon name="fitness-outline"></ion-icon> 98%
-                            </span>
-                            <span>
-                                <ion-icon name="time-outline"></ion-icon> 665ms
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div> --}}
     </div>
     <hr class="divider divider-fade">
     <div class="row d-flex justify-content-center">
