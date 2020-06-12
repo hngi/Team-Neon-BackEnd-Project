@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('dashboard.home');
 });
 
-Route::get('api/doc/api-title-here', function ($id) {
+Route::get('api/doc/api-title-here', function () {
     return view('dashboard.documentation');
 });
