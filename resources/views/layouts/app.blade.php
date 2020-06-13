@@ -10,12 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Finapp HTML Mobile Template">
     <meta name="keywords" content="bootstrap, mobile template, cordova, phonegap, mobile, html, responsive" />
-    
+
     <link rel="stylesheet" href="assets/vendor/css/line-awesome.css">
     <link rel="stylesheet" href="assets/vendor/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-custom.css">
     <link rel="stylesheet" href="assets/css/theme.css">
-    
+
     <link rel="stylesheet" href="assets/css/custom.css">
     <link rel="stylesheet" href="assets/css/rtl.css">
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
@@ -33,7 +33,7 @@
                         <li class="nav-item swap-link"> <a href="index.html" class="nav-link">Home</a> </li>
                         <li class="nav-item swap-link"> <a href="pricing.html" class="nav-link">API</a> </li>
                         <li class="nav-item swap-link"> <a href="pricing.html" class="nav-link">Documentation</a> </li>
-                        <li class="nav-item swap-link"> <a href="pricing.html" class="nav-link">Our Team</a> </li>
+                        <li class="nav-item swap-link"> <a href="{{url('team')}}" class="nav-link">Our Team</a> </li>
                     </ul>
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -52,7 +52,7 @@
     <main role="main">
         <div class="warpper">
             @section('main-wraper')
-                
+
             @show
         </div>
 
@@ -79,7 +79,7 @@
     </main>
 
     <footer class="section-footer bg-dark position-relative">
-        
+
     </footer>
 
     <!-- build:js -->
@@ -93,7 +93,7 @@
 
     @section('optJSFiles')
         {{-- Additional Optional JS File --}}
-        
+
     @endsection
 </body>
 </html>
