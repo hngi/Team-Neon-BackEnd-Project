@@ -42,6 +42,12 @@
         </div>
     </div>
 </div>
+<div class="alert alert-warning alert-dismissible fade show" role="alert" style="position: fixed; right: 1.5rem; top: 3rem; z-index: 19999 ">
+    <strong>Gotcha!</strong> You'll working in a test environment, authentication isn't required
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+</div>
 <div class="container">
     <div class="row mb-4 mt-5 d-flex justify-content-between align-items-center">
         <div class="col-md-8">

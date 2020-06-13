@@ -13,6 +13,8 @@ class DashboardController extends Controller
     public function Home(Request $request) {
         $js_ds = ["auth.microapi.dev", "dashboard.microapi.dev", "falcon.microapi.dev", "file.microapi.dev", "fury.microapi.dev", "image.microapi.dev", "imageresize.microapi.dev", "mailer.microapi.dev", "pages.microapi.dev", "subscription.microapi.dev", "teamincredible.microapi.dev", "test.microapi.dev", "testincredible.microapi.dev", "usermanager.microapi.dev", "www.microapi.dev"];
 
+        $domains = [];
+        
         foreach ($js_ds as $js_d) {
             # code...
             $ex = explode('.', $js_d);

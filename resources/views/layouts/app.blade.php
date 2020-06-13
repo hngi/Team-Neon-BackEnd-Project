@@ -194,5 +194,8 @@
     <script src="{{ asset('assets/vendor/js/prism.min.js') }}"></script>
 
     <script src="{{ asset('assets/js/custom.js') }}"></script>
+    <script>
+        $('.alert').alert()
+    </script>
 </body>
 </html>
