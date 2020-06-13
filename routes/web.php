@@ -12,6 +12,8 @@ use Symfony\Component\HttpFoundation\Session\Session;
 |
 */
 
+URL::forceRootUrl(Config::get('app.url'));
+
 Route::middleware('microapi.auth')->group(function () {
     
     Route::get('/', 'DashboardController@Home')->name('dashboard.home');
