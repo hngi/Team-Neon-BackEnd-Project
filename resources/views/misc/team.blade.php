@@ -24,7 +24,7 @@
         
         $readUsers[] = strtolower($user);
         @endphp
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="card team-member">
                     <div class="img-placeholder" style="background-image: url({{$team['image_url']}})">
                         <div class="hover">
