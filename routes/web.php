@@ -22,6 +22,12 @@ Route::middleware('microapi.auth')->group(function () {
 
 });
 
+Route::get('subdomain', function () {
+    $sub = file_get_contents(resource_path('assets/subdomain_list.json'));
+    print_r(json_decode($sub));
+    exit();
+});
+
 Route::get('auth/login/test', function () {
     return $_REQUEST;
 });
