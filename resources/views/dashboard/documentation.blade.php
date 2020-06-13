@@ -78,4 +78,6 @@
         </div>
     </div>
 </section>
-@show
+@endsection
+
+@section('jumbotron-sec', '')

@@ -1,0 +1,145 @@
+[
+  {
+    "country": "Nigeria", 
+    "email": "ataman.chima@gmail.com", 
+    "firstname": "Chima", 
+    "hng_id": "HNG-00936", 
+    "image_url": "https://ca.slack-edge.com/T0148TPPJRW-U014HSJQVPF-1052535d7513-512", 
+    "languages": "Python", 
+    "lastname": "Ataman", 
+    "middlename": "Benedict", 
+    "role": "backend"
+  }, 
+  {
+    "country": "Nigeria", 
+    "email": "Jomacconcept@gmail.com", 
+    "firstname": "Miracle", 
+    "hng_id": "HNG-05624", 
+    "image_url": "https://media-exp1.licdn.com/dms/image/C4E03AQGBZTX9YjQugQ/profile-displayphoto-shrink_200_200/0?e=1597276800&v=beta&t=RKfoCUOrY4pRCEYBEkgIyJEM8yP7UMRTF6DRk3sPIdE", 
+    "languages": "Python", 
+    "lastname": "Osigwe", 
+    "middlename": "", 
+    "role": "backend"
+  }, 
+  {
+    "country": "Nigeria", 
+    "email": "Joemires20@yahoo.com", 
+    "firstname": "Joseph", 
+    "hng_id": "HNG-02360", 
+    "image_url": "https://avatars1.githubusercontent.com/u/34143261?s=460&u=86345875d5740adf028e8a9122a906f3674a2a07&v=4", 
+    "languages": "PHP", 
+    "lastname": "Bassey", 
+    "middlename": "Okon", 
+    "role": "backend"
+  },
+  {
+    "country": "Nigeria", 
+    "email": "blessedmadukoma@gmail.com", 
+    "firstname": "Blessed", 
+    "hng_id": "HNG-06453", 
+    "image_url": "https://avatars2.githubusercontent.com/u/49055048?s=400&u=e22f4fa46f83219aec0ce68fd16787d1392f12db&v=4", 
+    "languages": "Python", 
+    "lastname": "Madukoma", 
+    "middlename": "Chikadibia", 
+    "role": "backend"
+  }, 
+  {
+    "country": "Nigerian", 
+    "email": "iamkemical1@gmail.com", 
+    "firstname": "Gabriel", 
+    "hng_id": "HNG-00850", 
+    "image_url": "https://avatars2.githubusercontent.com/u/31128383?s=460&u=d1fb8f6adb47c70c5d49d051c8d742f8342e9d01&v=4", 
+    "languages": "C#", 
+    "lastname": "Isaac", 
+    "middlename": "Alfred", 
+    "role": "backend"
+  }, 
+  {
+    "country": "Nigeria", 
+    "email": "Zicozydasilva70@gmail.com", 
+    "firstname": "Ogbu", 
+    "hng_id": "HNG_04274", 
+    "image_url": "https://ca.slack-edge.com/T0148TPPJRW-U0158SWQEMN-375f3e3b63e0-512", 
+    "languages": "English Languafge", 
+    "lastname": "Ike", 
+    "middlename": "Ezekiel", 
+    "role": "backend"
+  },
+  {
+    "country": "Nigeria", 
+    "email": "gaiyaobed94@gmail.com", 
+    "firstname": "Obed", 
+    "hng_id": "HNG-02931", 
+    "image_url": "https://pbs.twimg.com/profile_images/1144992611045969920/0LuP_5Ve_400x400.jpg", 
+    "languages": "PHP", 
+    "lastname": "Gaiya", 
+    "middlename": "Mathias", 
+    "role": "backend"
+  }, 
+  {
+    "country": "Nigeria", 
+    "email": "samuelshorun@gmail.com", 
+    "firstname": "Samuel", 
+    "hng_id": "HNG-01294", 
+    "image_url": "https://ca.slack-edge.com/T0148TPPJRW-U014C82938W-f2c7ed8f3472-512", 
+    "languages": "PHP", 
+    "lastname": "Shorun", 
+    "middlename": "Adeyemi", 
+    "role": "backend"
+  }, 
+  {
+    "country": "Nigeria", 
+    "email": "sarboldipo80@gmail.com", 
+    "firstname": "Saburi", 
+    "hng_id": "HNG-05682", 
+    "image_url": "https://pbs.twimg.com/media/DY4E5gqXUAI9LJh?format=jpg&name=medium", 
+    "languages": "Python", 
+    "lastname": "Yusuf", 
+    "middlename": "Oladipo", 
+    "role": "backend"
+  }, 
+  {
+    "country": "nigeria", 
+    "email": "kenneyg50@gmail.com", 
+    "firstname": "kenneth", 
+    "hng_id": "HNG-05471", 
+    "image_url": "https://avatars1.githubusercontent.com/u/15615018?s=400&u=685a4c3cc03fd4753a5f5b8dd1b7e296f7034c60&v=4", 
+    "languages": "php", 
+    "lastname": "akpan", 
+    "middlename": "", 
+    "role": "backend"
+  }, 
+  {
+    "country": "nigeria", 
+    "email": "kenneyg50@gmail.com", 
+    "firstname": "kenneth", 
+    "hng_id": "HNG-05471", 
+    "image_url": "https://avatars1.githubusercontent.com/u/15615018?s=400&u=685a4c3cc03fd4753a5f5b8dd1b7e296f7034c60&v=4", 
+    "languages": "php", 
+    "lastname": "akpan", 
+    "middlename": "", 
+    "role": "backend"
+  }, 
+  {
+    "country": "Nigeria", 
+    "email": "leobary86@yahoo.com", 
+    "firstname": "Omhoape", 
+    "hng_id": "HNG-02382", 
+    "image_url": "https://avatars1.githubusercontent.com/u/60699588?s=400&u=38401175275aa2e3ab6006e16e27501b038435f7&v=4", 
+    "languages": "C#", 
+    "lastname": "Osigbemhe", 
+    "middlename": "Leo", 
+    "role": "backend"
+  }, 
+  {
+    "country": "Nigeria", 
+    "email": "izik4004@gmail.com", 
+    "firstname": "Isaac", 
+    "hng_id": "HNG-04381", 
+    "image_url": "https://avatars3.githubusercontent.com/u/49079739?s=460&v=4", 
+    "languages": "php", 
+    "lastname": "John", 
+    "middlename": "", 
+    "role": "backend"
+  }
+]
